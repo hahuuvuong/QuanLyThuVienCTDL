@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="default" />
+	<File name="LOPHOC.h" open="1" top="1" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8059" topLine="330" />
+		</Cursor>
+	</File>
+	<File name="timer.h" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2764" topLine="104" />
+		</Cursor>
+	</File>
+	<File name="CAUHOITHI.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="10855" topLine="544" />
+		</Cursor>
+	</File>
+	<File name="KHUNG.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="587" topLine="21" />
+		</Cursor>
+	</File>
+	<File name="Untitled1.cpp" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="24084" topLine="882" />
+		</Cursor>
+	</File>
+	<File name="DSMH.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5259" topLine="233" />
+		</Cursor>
+	</File>
+	<File name="SINHVIEN.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="9053" topLine="400" />
+		</Cursor>
+	</File>
+	<File name="CauTruc.h" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1576" topLine="75" />
+		</Cursor>
+	</File>
+	<File name="Menu.h" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5558" topLine="228" />
+		</Cursor>
+	</File>
+	<File name="MH_CHT.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="17293" topLine="514" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>
+[Editors]
+Order=0,8,2,10,5,7,3,9,1,6,4
+Focused=7
+[Editor_4]
+CursorCol=19
+CursorRow=255
+TopLine=270
+LeftChar=1
+[Editor_7]
+CursorCol=1
+CursorRow=472
+TopLine=451
+LeftChar=1
+[Editor_0]
+CursorCol=44
+CursorRow=67
+TopLine=60
+LeftChar=1
+[Editor_1]
+CursorCol=1
+CursorRow=140
+TopLine=126
+LeftChar=1
+[Editor_8]
+CursorCol=1
+CursorRow=95
+TopLine=88
+LeftChar=1
+[Editor_5]
+CursorCol=1
+CursorRow=48
+TopLine=34
+LeftChar=1
+[Editor_6]
+CursorCol=1
+CursorRow=110
+TopLine=1
+LeftChar=1
+[Editor_10]
+CursorCol=26
+CursorRow=538
+TopLine=515
+LeftChar=1
+[Editor_2]
+CursorCol=1
+CursorRow=25
+TopLine=8
+LeftChar=1
+[Editor_3]
+CursorCol=1
+CursorRow=221
+TopLine=240
+LeftChar=1
+[Editor_9]
+CursorCol=41
+CursorRow=623
+TopLine=604
+LeftChar=1

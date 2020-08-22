@@ -1,0 +1,158 @@
+# depslib dependency file v1.0
+1564738744 source:d:\nam 3\nam3_3\thi_trac_nghiem\untitled1.cpp
+	<iostream>
+	<conio.h>
+	<string.h>
+	<fstream>
+	<time.h>
+	<stdlib.h>
+	<thread>
+	<windows.h>
+	<typeinfo>
+	"SINHVIEN.h"
+	"Menu.h"
+	"KHUNG.h"
+	"LOPHOC.h"
+	"CAUHOITHI.h"
+	"DSMH.h"
+	"timer.h"
+
+1564730928 d:\nam 3\nam3_3\thi_trac_nghiem\sinhvien.h
+	<iostream>
+	<string.h>
+	<string>
+	"CAUHOITHI.h"
+	"Menu.h"
+	"KHUNG.h"
+
+1564734737 d:\nam 3\nam3_3\thi_trac_nghiem\cauhoithi.h
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+	<string.h>
+	<fstream>
+	<algorithm>
+	"Menu.h"
+	"KHUNG.h"
+	"DSMH.h"
+
+1564727393 d:\nam 3\nam3_3\thi_trac_nghiem\menu.h
+	<iostream>
+	<conio.h>
+	<windows.h>
+	<stdio.h>
+	<dos.h>
+	<string.h>
+	<mylib.h>
+	<sstream>
+	"KHUNG.h"
+
+1563608538 d:\nam 3\nam3_3\thi_trac_nghiem\khung.h
+	<iostream>
+	<iomanip>
+	<windows.h>
+	"Menu.h"
+
+1564660373 d:\nam 3\nam3_3\thi_trac_nghiem\dsmh.h
+	<iostream>
+	<string>
+	<string.h>
+	<fstream>
+	<windows.h>
+	"Menu.h"
+	"KHUNG.h"
+	"CAUHOITHI.h"
+
+1564727645 d:\nam 3\nam3_3\thi_trac_nghiem\lophoc.h
+	<iostream>
+	<string.h>
+	<string>
+	<fstream>
+	"SINHVIEN.h"
+	"Menu.h"
+	"KHUNG.h"
+
+1564737195 d:\nam 3\nam3_3\thi_trac_nghiem\timer.h
+	<iostream>
+	<windows.h>
+
+1565242419 source:d:\nam 3\nam3_3\thi_trac_nghiem_temp\thi_trac_nghiem\untitled1.cpp
+	<iostream>
+	<conio.h>
+	<string.h>
+	<fstream>
+	<time.h>
+	<stdlib.h>
+	<thread>
+	<windows.h>
+	"Menu.h"
+	"KHUNG.h"
+	"LOP_SV.h"
+	"MH_CHT.h"
+	"timer.h"
+
+1565242380 d:\nam 3\nam3_3\thi_trac_nghiem_temp\thi_trac_nghiem\sinhvien.h
+	<iostream>
+	<string.h>
+	<string>
+	"CAUHOITHI.h"
+	"Menu.h"
+	"KHUNG.h"
+
+1565166243 d:\nam 3\nam3_3\thi_trac_nghiem_temp\thi_trac_nghiem\cauhoithi.h
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+	<string.h>
+	<fstream>
+	<algorithm>
+	"Menu.h"
+	"KHUNG.h"
+
+1565240282 d:\nam 3\nam3_3\thi_trac_nghiem_temp\thi_trac_nghiem\menu.h
+	<iostream>
+	<conio.h>
+	<windows.h>
+	<stdio.h>
+	<dos.h>
+	<string.h>
+	<mylib.h>
+	<sstream>
+	"KHUNG.h"
+
+1564852949 d:\nam 3\nam3_3\thi_trac_nghiem_temp\thi_trac_nghiem\khung.h
+	<iostream>
+	<iomanip>
+	<windows.h>
+	"Menu.h"
+
+1565246714 d:\nam 3\nam3_3\thi_trac_nghiem_temp\thi_trac_nghiem\dsmh.h
+	<iostream>
+	<string>
+	<string.h>
+	<fstream>
+	<windows.h>
+	"Menu.h"
+	"KHUNG.h"
+
+1565246851 d:\nam 3\nam3_3\thi_trac_nghiem_temp\thi_trac_nghiem\lophoc.h
+	<iostream>
+	<string.h>
+	<string>
+	<fstream>
+	"SINHVIEN.h"
+	"Menu.h"
+	"KHUNG.h"
+
+1564744481 d:\nam 3\nam3_3\thi_trac_nghiem_temp\thi_trac_nghiem\timer.h
+	<iostream>
+	<windows.h>
+
+1565242218 d:\nam 3\nam3_3\thi_trac_nghiem_temp\thi_trac_nghiem\mh_cht.h
+	"DSMH.h"
+	"CAUHOITHI.h"
+
+1565244098 d:\nam 3\nam3_3\thi_trac_nghiem_temp\thi_trac_nghiem\lop_sv.h
+	"LOPHOC.h"
+	"SINHVIEN.h"
+
