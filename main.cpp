@@ -7,15 +7,15 @@
 #include <thread>
 #include <windows.h>
 
-
 #include "Menu.h"
 #include "KHUNG.h"
-//#include "LOPHOC.h"
+#include "DauSach.h"
+#include "MuonTra.h"
 //#include "SINHVIEN.h"
 #include "LOP_SV.h"
-
 #include "MH_CHT.h"
 #include "timer.h"
+#include "TheDocGia.h"
 
 using namespace std;
 
@@ -711,11 +711,14 @@ void Xoa_Diem(int y)
 
 int main()
 {
+	NODE_DG_PTR tree;
+    initualizeTreeDG(tree);
+    
     PTR_NODECHT ds_CHT;
     khoi_tao_danh_sach_cht(ds_CHT);
 
-    LISTMH ds_MH ;
-	khoi_tao_danh_sach_MH(ds_MH);
+    LISTDAUSACH listDauSach;
+	khoi_tao_danh_sach_DS(listDauSach);
 
     LISTLOP ds_LOP;
     khoi_tao_danh_sach_lop(ds_LOP);
@@ -724,10 +727,14 @@ int main()
     Khoi_Tao_Danh_Sach_Diem(ds_DT);
 
     DocFileLop_SV_Diem(ds_LOP,"Lop_SV_Diem.txt");
-    DocFileMH(ds_MH,"MonHoc.txt");
+//    DocFileMH(ds_MH,"MonHoc.txt");
     DocFileCHT(ds_CHT,"CauHoiThi.txt");
 
 
+	DocFileDG(tree,"TheDocGia.txt");
+	
+    initDS(listDauSach);
+    DocFileDS(listDauSach, "DauSach.txt");
     //man hinh dang nhap
     int tmp=0;
     do
@@ -737,18 +744,15 @@ int main()
         TextColor(Green);
         vekhung(42,23,1,54);
         PutCharXY(43,24,"ESC: THOAT | TAB: DOI VI TRI CON TRO | ENTER: XAC NHAN",Green);
-        tmp = DangNhap(35,13,ds_LOP);
-        if(tmp ==1)
-        {
             //-----tao ra danhTREE sach menu-----
             int soluongmenu = 4;// so luong menu
 
             char a[4][30] =  // khai bao mang co 4 hang va moi hang co 20 ky tu
             {
 
-                "QUAN LY LOP HOC",
-                "QUAN LY SINH VIEN",
-                "QUAN LY MON HOC",
+                "QUAN LY DOC GIA",
+                "QUAN LY DAU SACH",
+                "QUAN LY MUON TRA",
                 "QUAN LY CAU HOI THI",
             };
             // goi ham menu trong menu.h
@@ -767,48 +771,39 @@ int main()
 
                 switch (m)
                 {
-                case  0 ://xu ly quan ly lop hoc
+                case  0 ://xu ly quan ly DOC GIA
                 {
 
                     //TextColor(0x0004);
                     system("cls");
-                    QuanLyLopHoc(ds_LOP);
+                    QuanLyDocGia(tree);
                     break;
                 }
-                case 1://xu ly quan ly sinh vien
+                case 1://xu ly quan ly DAU SACH
                 {
                     //TextColor(0x0004);
                     system("cls");
-                    QuanLySinhVien(ds_LOP);
+                    QuanLySach(listDauSach);
                     break;
                 }
-                case 2://xu ly quan ly mon hoc
+                case 2://xu ly quan ly muon tra
                 {
                     //TextColor(0x0004);
                     system("cls");
-                    QuanLyMonHoc(ds_MH,ds_CHT);
+                    QuanLyMuonTra(tree,listDauSach);
                     break;
                 }
                 case 3:
                 {
                     //TextColor(0x0004);
                     system("cls");
-                    QuanLyCauHoi(ds_CHT,ds_MH);
+//                    QuanLyCauHoi(ds_CHT,ds_MH);
                     break;
 
                 }
                 }
             }
             while(m!=-1);  // khi nhan esc menu tra ve -1 va thoat
-        }
-        else if(tmp == 2)
-        {
-            //sinh vien
-            system("cls");
-            PhanSinhVien(ds_MH, ds_CHT,ds_LOP);
-        }
-        else
-            PutCharXY(55,21,"CAM ON BAN DA SU DUNG PHAN MEM!!",Cyan);
     }
     while (tmp!=0);
 

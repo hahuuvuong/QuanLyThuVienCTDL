@@ -438,54 +438,6 @@ int Sua_CHT( PTR_NODECHT &tree, CHT &x)
     }
     return 0;
 }
-void Swap(int* number_1, int* number_2)
-{
-	int temp = *number_1;
-	*number_1 = *number_2;
-	*number_2 = temp;
-}
-
-void ShuffleArray(int* arr, int n)
-{
-	srand(time(NULL));
-
-	int minPosition;
-	int maxPosition = n - 1;
-	int swapPosition;
-
-	int i = 0;
-	while (i < n - 1)
-	{
-		minPosition = i + 1;
-		swapPosition = rand() % (maxPosition - minPosition + 1) + minPosition;
-
-		Swap(&arr[i], &arr[swapPosition]);
-		i++;
-	}
-}
-
-void GhiFileIDCHT()
-{
-    ofstream fileout;
-    fileout.open("IDCHT.txt", ios_base::out);
-    int idCHT[MAXLISTCHT];
-    
-    for (int i=0; i < MAXLISTCHT; i++)
-    {
-    	idCHT[i] = i+1;
-    }
-    ShuffleArray(idCHT,MAXLISTCHT);
-    if(!fileout.fail())
-    {
-        for (int i=0; i < MAXLISTCHT; i++)
-        {
-        	fileout << idCHT[i]<<endl;
-        }
-
-        fileout.close();
-    }
-}
-
 void DocFileIDCHT(int t[])
 {
     ifstream filein;

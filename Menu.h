@@ -40,8 +40,9 @@ using namespace std;
 #define Pink			13
 #define Yellow			14
 #define White			15
-
+#define SPACE 			32 
 #define SODONG 18
+#define SODONGDG 18
 #define SODONGCHT 3
 void TextColor(int color)
 {
@@ -287,19 +288,5 @@ int demSoDong(const char *file_path)
     return row;
 }
 
-void show_tittle()
-{
-    TextColor(Green);
-    gotoxy(20,2);
-    cout << " _______ __     __   _______                     _______         __     __                  \n";
-    gotoxy(20,3);
-    cout << "|_     _|  |--.|__| |_     _|.----.---.-.----.  |    |  |.-----.|  |--.|__|.-----.--------. \n";
-    gotoxy(20,4);
-    cout << "  |   | |     ||  |   |   |  |   _|  _  |  __|  |       ||  _  ||     ||  ||  -__|        | \n";
-    gotoxy(20,5);
-    cout << "  |___| |__|__||__|   |___|  |__| |___._|____|  |__|____||___  ||__|__||__||_____|__|__|__| \n";
-    gotoxy(20,6);
-    cout << "                                                        |_____|							 \n";
-}
 
 #endif

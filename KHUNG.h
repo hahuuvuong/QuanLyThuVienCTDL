@@ -46,4 +46,12 @@ void vekhung(int x,int y,int h,int w)
     cout.fill(196);
     cout<<char(192)<<setw(w)<<char(196)<<char(217);
 }
+void veCay(int x,int y,int h)
+{
+    for(int i=1; i<=h; ++i)
+    {
+        gotoXY(x,y+i);
+        cout<<char(179);
+    }
+}
 #endif
